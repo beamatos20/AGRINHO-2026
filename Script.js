@@ -1,7 +1,10 @@
-// Mensagem de boas-vindas
-console.log("Bem-vindo ao site Agro forte, futuro sustentável!");
 
-// Função simples
-function mostrarMensagem() {
-    alert("Obrigado por visitar nosso site sobre sustentabilidade no agronegócio!");
+let modal = document.getElementById("modal");
+
+function abreModal() {
+    modal.style.display = "block";
+}
+
+function fechaModal() {
+    modal.style.display = "none";
 }
