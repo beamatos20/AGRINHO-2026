@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Agro forte, futuro sustentável</title>
 </head>
+
 <body>
 
     <header>
@@ -20,6 +21,9 @@
             <li><a href="#conclusao">Conclusão</a></li>
         </ul>
     </nav>
+
+    <!-- Botão que abre o modal -->
+    <button onclick="abreModal()">Ajuda</button>
 
     <main>
 
@@ -66,12 +70,26 @@
 
     </main>
 
+    <!-- Modal -->
+    <div id="modal">
+        <h2>Ajuda</h2>
+
+        <p>
+            Este site apresenta informações sobre o agronegócio sustentável,
+            seus impactos ambientais e possíveis soluções.
+        </p>
+
+        <button onclick="fechaModal()">Fechar</button>
+    </div>
+
     <footer>
         <p>Projeto escolar - 2026</p>
     </footer>
-    
-  <script src="script.js"></script>
+
+    <script src="script.js"></script>
+
     <img src="./assets/campo.png" alt="Produção agrícola">
-<img src="./assets/cidade.png" alt="Conexão campo e cidade">
+    <img src="./assets/cidade.png" alt="Conexão campo e cidade">
+
 </body>
 </html>
