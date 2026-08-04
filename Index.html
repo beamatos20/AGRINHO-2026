@@ -3,93 +3,209 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Agro forte, futuro sustentável</title>
+    <title>Agro Forte, Futuro Sustentável - AGRINHO 2026</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
     <header>
-        <h1>Agro forte, futuro sustentável</h1>
-        <p>Equilíbrio entre produção e meio ambiente</p>
+        <div class="container navbar">
+            <a href="#" class="logo">
+                <strong>AGRINHO 2026</strong>
+            </a>
+            <nav>
+                <ul class="nav-menu">
+                    <li><a href="#economia">Economia</a></li>
+                    <li><a href="#sustentabilidade">Sustentabilidade</a></li>
+                    <li><a href="#tecnologia">Tecnologia</a></li>
+                    <li><a href="#impactos">Desafios</a></li>
+                    <li><a href="#solucoes">Soluções</a></li>
+                    <li><a href="#flashcards">Flashcards</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
-    <nav>
-        <ul>
-            <li><a href="#sobre">Sobre</a></li>
-            <li><a href="#impactos">Impactos</a></li>
-            <li><a href="#solucoes">Soluções Sustentáveis</a></li>
-            <li><a href="#conclusao">Conclusão</a></li>
-        </ul>
-    </nav>
+    <section class="hero">
+        <div class="container">
+            <h1>Agro Forte, Futuro Sustentável</h1>
+            <p>O desafio de alimentar o mundo sem destruir o planeta: encontrando o verdadeiro equilíbrio entre a produção em escala e a preservação do meio ambiente.</p>
+            <a href="#flashcards" class="btn">Explorar Flashcards</a>
+        </div>
+    </section>
 
-    <!-- Botão que abre o modal -->
-    <button onclick="abreModal()">Ajuda</button>
+    <section id="economia">
+        <div class="container">
+            <h2 class="section-title">O Agronegócio e sua Importância Econômica</h2>
+            <div class="grid-3">
+                <div class="card">
+                    <h3>Motor do País</h3>
+                    <p>Representa toda a cadeia produtiva que vai do campo até a mesa. No Brasil, quase 25% de toda a riqueza gerada (PIB) provém diretamente desse setor essencial.</p>
+                </div>
+                <div class="card">
+                    <h3>Supermercado do Mundo</h3>
+                    <p>O país consolidou-se como um dos maiores exportadores de alimentos globais, garantindo milhares de empregos e equilibrando a economia nacional.</p>
+                </div>
+                <div class="card">
+                    <h3>Cidades do Interior</h3>
+                    <p>O capital gerado no campo impulsiona o desenvolvimento regional, movimentando o comércio, faculdades, conectividade e a infraestrutura local.</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <main>
+    <section id="sustentabilidade" class="section-white">
+        <div class="container flex-layout">
+            <div class="flex-text">
+                <h2 class="section-title title-left">Sustentabilidade no Campo</h2>
+                <p>Produzir alimentos com responsabilidade exige um novo olhar estratégico sobre os recursos naturais. A sustentabilidade empresarial baseia-se na segurança de que nossas atividades de hoje não comprometerão a subsistência do amanhã.</p>
+                <ul class="concept-list">
+                    <li><strong>Regra dos 3 Ps:</strong> Para o campo prosperar, ele precisa operar sob o tripé: ser <em>Produtivo</em> (gerar lucro), <em>Protetor</em> (cuidar da natureza) e voltado <em>Para as pessoas</em> (respeito aos colaboradores).</li>
+                    <li><strong>Pensar no Futuro:</strong> Evitar o esgotamento da água e do solo garante a produção de alimentos para as próximas gerações, mantendo o estoque do planeta.</li>
+                    <li><strong>Consumidor Consciente:</strong> O mercado atual e os compradores internacionais exigem certificações rígidas e provas de que os alimentos foram gerados sem desmatamento ilegal.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
 
-        <section id="sobre">
-            <h2>O que é o agronegócio sustentável?</h2>
-            <p>
-                O agronegócio sustentável busca aumentar a produção de alimentos
-                sem prejudicar os recursos naturais, utilizando práticas que
-                preservam o solo, a água e a biodiversidade.
-            </p>
-        </section>
+    <section id="tecnologia">
+        <div class="container">
+            <h2 class="section-title">Inovação e Tecnologia no Campo</h2>
+            <div class="grid-3">
+                <div class="card">
+                    <h3>Agricultura de Precisão</h3>
+                    <p>Utilização de tratores guiados por GPS e satélites para aplicar insumos na quantidade exata, planta por planta, reduzindo o desperdício a zero.</p>
+                </div>
+                <div class="card">
+                    <h3>Irrigação Inteligente</h3>
+                    <p>Sensores conectados ao solo determinam o nível de umidade exato, ativando os sistemas automatizados de água apenas quando necessário.</p>
+                </div>
+                <div class="card">
+                    <h3>Drones Agrícolas</h3>
+                    <p>Mapeamento aéreo por meio de fotos térmicas que identificam pragas ou anomalias nas lavouras de forma precoce, evitando perdas em larga escala.</p>
+                </div>
+                <div class="card">
+                    <h3>Energia Limpa</h3>
+                    <p>Fazendas modernas transformam resíduos biológicos (biomassa) e restos de culturas em eletricidade, além do uso massivo de painéis solares fotovoltaicos.</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-        <section id="impactos">
-            <h2>Principais desafios ambientais</h2>
+    <section id="impactos" class="section-white">
+        <div class="container">
+            <h2 class="section-title">O Lado Crítico: Impactos Ambientais</h2>
+            <p class="section-subtitle">Para construir soluções robustas, o setor empresarial deve encarar de frente os desafios e mitigar as consequências negativas das atividades agrícolas tradicionais.</p>
+            <div class="grid-3">
+                <div class="alert-card">
+                    <h3>Desmatamento</h3>
+                    <p>A expansão desordenada de fronteiras agrícolas sobre florestas nativas prejudica gravemente a biodiversidade e altera negativamente o microclima regional.</p>
+                </div>
+                <div class="alert-card">
+                    <h3>Consumo de Recursos Hídricos</h3>
+                    <p>Sendo a atividade com maior demanda por água doce, o gerenciamento incorreto ou ineficiente da irrigação pode causar secas severas nos leitos locais.</p>
+                </div>
+                <div class="alert-card">
+                    <h3>Gases de Efeito Estufa</h3>
+                    <p>Emissões expressivas de gás metano vindas da pecuária e o uso intensivo de fertilizantes nitrogenados tradicionais aceleram as mudanças climáticas globais.</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-            <ul>
-                <li>Desmatamento</li>
-                <li>Uso excessivo de água</li>
-                <li>Emissão de gases poluentes</li>
-                <li>Uso inadequado do solo</li>
-            </ul>
-        </section>
+    <section id="solucoes">
+        <div class="container">
+            <h2 class="section-title">Soluções Reais para o Futuro</h2>
+            <div class="grid-3">
+                <div class="card card-primary-border">
+                    <h3>ILPF (Integração Lavoura-Pecuária-Floresta)</h3>
+                    <p>Estratégia sinérgica que une plantações, pastagens e árvores na mesma propriedade. As árvores oferecem conforto térmico ao gado e sequestram ativamente o CO₂ da atmosfera.</p>
+                </div>
+                <div class="card card-primary-border">
+                    <h3>Sistema de Plantio Direto</h3>
+                    <p>Cultivo realizado diretamente sobre a palhada da colheita anterior, dispensando o revolvimento do solo. Funciona como uma proteção natural, retendo umidade e nutrientes.</p>
+                </div>
+                <div class="card card-primary-border">
+                    <h3>Mercado de Créditos de Carbono</h3>
+                    <p>Mecanismo financeiro sustentável onde indústrias compensam suas emissões remunerando produtores rurais que mantêm suas áreas de floresta nativa preservadas.</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-        <section id="solucoes">
-            <h2>Soluções sustentáveis</h2>
+   <section id="flashcards" class="section-white">
+        <div class="container">
+            <h2 class="section-title">Flashcards Interativos</h2>
+            <p class="section-subtitle">Clique nos cartões abaixo para virar e descobrir os conceitos práticos do agronegócio moderno com imagens demonstrativas.</p>
+            
+            <div class="flashcard-grid">
+                
+                <div class="flashcard">
+                    <div class="flashcard-inner">
+                        <div class="flashcard-front">
+                            <h3>O que é Agricultura de Precisão?</h3>
+                            <span class="card-hint">Clique para virar 🔄</span>
+                        </div>
+                        <div class="flashcard-back">
+                            <img src="assets/1f584f24-49a9-4f6c-b959-f3badb29edd2.jpeg" alt="Tecnologia e Agricultura de Precisão">
+                            <p>Gestão otimizada da lavoura através do uso de sensores, GPS e robótica para máxima eficiência.</p>
+                        </div>
+                    </div>
+                </div>
 
-            <ol>
-                <li>Rotação de culturas</li>
-                <li>Agricultura de precisão</li>
-                <li>Uso consciente da água</li>
-                <li>Reflorestamento</li>
-                <li>Energia renovável no campo</li>
-            </ol>
-        </section>
+                <div class="flashcard">
+                    <div class="flashcard-inner">
+                        <div class="flashcard-front">
+                            <h3>Como funciona a Sustentabilidade no Agro?</h3>
+                            <span class="card-hint">Clique para virar 🔄</span>
+                        </div>
+                        <div class="flashcard-back">
+                            <img src="assets/d49d4f36-3baa-4d0f-aff8-92990e412ae8.jpeg" alt="Equilíbrio e Sustentabilidade no Campo">
+                            <p>Unindo produtividade agrícola com preservação dos recursos hídricos e recuperação do solo.</p>
+                        </div>
+                    </div>
+                </div>
 
-        <section id="conclusao">
-            <h2>Conclusão</h2>
+            </div>
+        </div>
+    </section>
 
-            <p>
-                O futuro do agronegócio depende do equilíbrio entre produção,
-                preservação ambiental e inovação tecnológica.
-            </p>
-        </section>
-
-    </main>
-
-    <!-- Modal -->
-    <div id="modal">
-        <h2>Ajuda</h2>
-
-        <p>
-            Este site apresenta informações sobre o agronegócio sustentável,
-            seus impactos ambientais e possíveis soluções.
-        </p>
-
-        <button onclick="fechaModal()">Fechar</button>
-    </div>
+    <section id="contato">
+        <div class="container">
+            <h2 class="section-title">Entre em Contato</h2>
+            <p class="section-subtitle">Dúvidas ou sugestões sobre o projeto AGRINHO 2026? Envie sua mensagem.</p>
+            
+            <form id="contact-form" class="contact-form-box">
+                <div class="form-group">
+                    <label for="input-name">Nome Completo</label>
+                    <input type="text" id="input-name" placeholder="Digite seu nome">
+                </div>
+                <div class="form-group">
+                    <label for="input-email">E-mail</label>
+                    <input type="email" id="input-email" placeholder="seuemail@exemplo.com">
+                </div>
+                <div class="form-group">
+                    <label for="input-message">Mensagem</label>
+                    <textarea id="input-message" rows="4" placeholder="Escreva sua mensagem aqui..."></textarea>
+                </div>
+                <button type="submit" class="btn btn-submit">Enviar Mensagem</button>
+            </form>
+        </div>
+    </section>
 
     <footer>
-        <p>Projeto escolar - 2026</p>
+        <div class="container">
+            <p><strong>AGRINHO 2026</strong> - Projeto Escolar Institucional</p>
+            <p class="footer-sub">Tema: Agro forte, futuro sustentável: equilíbrio entre produção e meio ambiente.</p>
+        </div>
     </footer>
 
     <script src="script.js"></script>
-
-    <img src="./assets/campo.png" alt="Produção agrícola">
-    <img src="./assets/cidade.png" alt="Conexão campo e cidade">
-
 </body>
-</html>
+    </html>
